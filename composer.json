@@ -1,13 +1,12 @@
 {
-    "name": "saintsystems/odata-client",
-    "version": "0.7.4",
-    "description": "Saint Systems OData Client for PHP",
+    "name": "dcis/odata-client",
+    "description": "DCIS OData Client for PHP based on saintsystems",
     "keywords": [
         "odata",
         "rest",
         "php"
     ],
-    "homepage": "https://github.com/saintsystems/odata-client-php",
+    "homepage": "https://github.com/Lych3ster/odata-client-php",
     "license": "MIT",
     "type": "library",
     "authors": [
