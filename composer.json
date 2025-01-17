@@ -29,7 +29,7 @@
             "src/Core/helpers.php"
         ],
         "psr-4": {
-            "DCIS\\OData\\": "src"
+            "SaintSystems\\OData\\": "src"
         }
     },
     "config": {
