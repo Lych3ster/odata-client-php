@@ -87,7 +87,7 @@ class ODataResponse
      */
     private function decodeBody()
     {
-        $decodedBody = json_decode($this->body, true);
+        $decodedBody = json_decode($this->body, true, 512, JSON_BIGINT_AS_STRING);
         if ($decodedBody === null) {
             $matches = null;
             preg_match('~\{(?:[^{}]|(?R))*\}~', $this->body, $matches);
