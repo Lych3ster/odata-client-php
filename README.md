@@ -1,5 +1,7 @@
 # Get started with the OData Client for PHP
 
+NOTE: This is a fork of https://github.com/saintsystems/odata-client-php/ since no actions were taken to fix bugs and no changes have been done to the project since several months.
+
 A fluent library for calling OData REST services inspired by and based on the [Laravel Query Builder](https://laravel.com/docs/5.4/queries).
 
 *This library is currently in preview. Please continue to provide [feedback](https://github.com/saintsystems/odata-client-php/issues/new) as we iterate towards a production-supported library.*
@@ -13,7 +15,7 @@ For WordPress users, please see our [Gravity Forms Dynamics 365 Add-On](https://
 ## Install the SDK
 You can install the PHP SDK with Composer.
 ```
-composer require saintsystems/odata-client
+composer require dcis/odata-client
 ```
 ### Call an OData Service
 
