@@ -11,8 +11,8 @@
     "type": "library",
     "authors": [
         {
-            "name": "Saint Systems",
-            "email": "contact@saintsystems.com"
+            "name": "DCIS",
+            "email": "support_it@dudelange.lu"
         }
     ],
     "require": {
@@ -29,7 +29,7 @@
             "src/Core/helpers.php"
         ],
         "psr-4": {
-            "SaintSystems\\OData\\": "src"
+            "DCIS\\OData\\": "src"
         }
     },
     "config": {
